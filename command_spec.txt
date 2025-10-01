@@ -1,0 +1,5558 @@
+prefix
+
+View guild prefix
+
+arguments
+
+none
+
+permissions
+
+none
+
+Tier
+prefix self
+
+Set personal prefix across all servers with bleed
+
+arguments
+
+prefix
+
+permissions
+
+Tier 2 Only
+
+prefix remove
+
+Remove command prefix for server
+
+arguments
+
+none
+
+permissions
+
+Administrator
+
+prefix set
+
+Set command prefix for server
+
+arguments
+
+prefix
+
+permissions
+
+Administrator
+
+boosterrole
+
+Create your own booster role
+
+arguments
+
+color
+
+second color
+
+name
+
+permissions
+
+Booster Only
+
+boosterrole rename
+
+Edit your booster roles name
+
+arguments
+
+new name
+
+permissions
+
+Booster Only
+
+boosterrole limit
+
+Set limit for booster roles
+
+arguments
+
+limit
+
+permissions
+
+Manage Guild
+
+boosterrole filter
+
+Blacklist words for booster role names
+
+arguments
+
+word
+
+permissions
+
+Manage Guild
+
+boosterrole filter list
+
+Blacklist words for booster role names
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+boosterrole base
+
+Set the base role for where boost roles will go under
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+boosterrole color
+
+Get your own custom booster color role
+
+arguments
+
+color
+
+second color
+
+name
+
+permissions
+
+Booster Only
+
+boosterrole award
+
+Reward a member a specific role upon boost
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+Roles
+
+boosterrole award view
+
+View the current award role
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Roles
+
+boosterrole award unset
+
+Remove the reward role
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Roles
+
+boosterrole link
+
+Link an existing role to be a booster role
+
+arguments
+
+member
+
+role
+
+permissions
+
+Manage Guild
+
+boosterrole icon
+
+Set an icon for booster role
+
+arguments
+
+url
+
+permissions
+
+Booster Only
+
+boosterrole share
+
+Share your booster role with others
+
+arguments
+
+member
+
+permissions
+
+none
+
+boosterrole share list
+
+List all members in your booster role
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+boosterrole share max
+
+Limit how many members can be in a booster role
+
+arguments
+
+number
+
+permissions
+
+Manage Guild
+
+boosterrole share limit
+
+Limit how many booster roles a member can have
+
+arguments
+
+number
+
+permissions
+
+Manage Guild
+
+boosterrole share remove
+
+Remove yourself from a shared booster role
+
+arguments
+
+role
+
+permissions
+
+none
+
+boosterrole remove
+
+Remove custom color booster role
+
+arguments
+
+none
+
+permissions
+
+Booster Only
+
+boosterrole dominant
+
+Set booster roles color to the most dominant color in avatar
+
+arguments
+
+none
+
+permissions
+
+Booster Only
+
+boosterrole list
+
+View all booster roles
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+boosterrole random
+
+Set a booster role with a random hex code
+
+arguments
+
+none
+
+permissions
+
+Booster Only
+
+boosterrole cleanup
+
+Clean up unused booster roles
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Roles
+
+settings
+
+Server configuration
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+settings googlesafetylevel
+
+Enable or disable safety level for Google commands
+
+arguments
+
+yes or no
+
+permissions
+
+Manage Guild
+
+settings modlog
+
+Set mod logs for punishments in guild
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+settings reset
+
+Reset moderation configuration
+
+arguments
+
+none
+
+permissions
+
+Administrator
+
+settings jail
+
+Set the jail channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+settings muted
+
+Set the text muted role
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+Roles
+
+settings autonick
+
+Set a nickname to be assigned to members when they join
+
+arguments
+
+nick
+
+permissions
+
+Manage Guild
+
+settings rmuted
+
+Set the reaction muted role
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+settings dj
+
+Set DJ role for music player
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+settings premiumrole
+
+Set the Premium Members role for Server Subscriptions
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+settings config
+
+View settings configuration for guild
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+settings resetcases
+
+Reset jail-log cases
+
+arguments
+
+none
+
+permissions
+
+Administrator
+
+settings joinlogs
+
+Set a channel to log join/leaves in a server
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+settings baserole
+
+Set the base role for where boost roles will go under
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+settings imuted
+
+Set the image muted role
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+Roles
+
+settings jailmsg
+
+Set a custom jail message
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+settings staff
+
+Set staff role(s)
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+settings staff list
+
+View a list of all staff roles
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+settings disablecustomfms
+
+Disable custom Now Playing commands
+
+arguments
+
+yes or no
+
+permissions
+
+Manage Channels
+
+settings autoplay
+
+Set auto play for music
+
+arguments
+
+setting
+
+permissions
+
+Manage Guild
+
+settings jailroles
+
+Enable or disable removal of roles for jail
+
+arguments
+
+yes or no
+
+permissions
+
+Manage Guild
+
+boosts
+
+Set up boost messages in one or multiple channels
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+boosts add
+
+Add a boost message to a channel
+
+arguments
+
+channel
+
+message
+
+permissions
+
+Manage Guild
+
+boosts view
+
+View a boost message for a channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+boosts list
+
+View all boost messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+boosts variables
+
+View all available variables for boost messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+boosts remove
+
+Remove a boost message from a channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+alias
+
+Create your own shortcuts for commands
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+alias view
+
+View command execution for alias
+
+arguments
+
+shortcut
+
+permissions
+
+Manage Guild
+
+alias list
+
+List every alias for all commands
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+alias add
+
+Create an alias for command
+
+arguments
+
+shortcut
+
+command
+
+permissions
+
+Manage Guild
+
+alias reset
+
+Reset every alias for all commands
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+alias removeall
+
+Remove an alias for command
+
+arguments
+
+command
+
+permissions
+
+Manage Guild
+
+alias remove
+
+Remove an alias for command
+
+arguments
+
+shortcut
+
+permissions
+
+Manage Guild
+
+stickymessage
+
+Set up a sticky message in one or multiple channels
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+stickymessage remove
+
+Remove a sticky message from a channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+stickymessage view
+
+View the sticky message for a channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+stickymessage list
+
+View all sticky messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+stickymessage add
+
+Add a sticky message to a channel
+
+arguments
+
+channel
+
+message
+
+permissions
+
+Manage Guild
+
+welcome
+
+Set up a welcome message in one or multiple channels
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+welcome list
+
+View all welcome messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+welcome remove
+
+Remove a welcome message from a channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+welcome view
+
+View welcome message for a channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+welcome variables
+
+View all available variables for welcome messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+welcome add
+
+Add a welcome message for a channel
+
+arguments
+
+channel
+
+message
+
+permissions
+
+Manage Guild
+
+goodbye
+
+Set up a goodbye message in one or multiple channels
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+goodbye view
+
+View goodbye message for a channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+goodbye list
+
+View all goodbye messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+goodbye remove
+
+Remove a goodbye message for a channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+goodbye variables
+
+View all available variables for goodbye messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+goodbye add
+
+Add a goodbye message for a channel
+
+arguments
+
+channel
+
+message
+
+permissions
+
+Manage Guild
+
+imgonly
+
+Set up image + caption only channels
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+imgonly list
+
+View all gallery channels
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+imgonly remove
+
+Remove a gallery channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+imgonly add
+
+Set a gallery channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+invoke
+
+Change punishment messages for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke timeout
+
+Change timeout message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke timeout dm
+
+Change timeout message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke timeout dm view
+
+View the timeout message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke timeout message
+
+Change timeout message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke timeout message view
+
+View the timeout message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke tempban
+
+Change tempban message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke tempban dm
+
+Change tempban message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke tempban dm view
+
+View the tempban message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke tempban message
+
+Change tempban message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke tempban message view
+
+View the tempban message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke runmute
+
+Change runmute message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke runmute message
+
+Change runmute message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke runmute message view
+
+View the runmute message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke kick
+
+Change kick message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke kick message
+
+Change kick message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke kick message view
+
+View the kick message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke kick dm
+
+Change kick message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke kick dm view
+
+View the kick message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke softban
+
+Change softban message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke softban message
+
+Change softban message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke softban message view
+
+View the softban message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke softban dm
+
+Change softban message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke softban dm view
+
+View the softban message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke hardban
+
+Change hardban message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke hardban message
+
+Change hardban message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke hardban message view
+
+View the hardban message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke unban
+
+Change unban message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke unban message
+
+Change unban message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke unban message view
+
+View the unban message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke unban dm
+
+Change unban message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke unban dm view
+
+View the unban message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke unmute
+
+Change unmute message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke unmute message
+
+Change unmute message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke unmute message view
+
+View the unmute message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke unmute dm
+
+Change unmute message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke unmute dm view
+
+View the unmute message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke mute
+
+Change mute message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke mute message
+
+Change mute message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke mute message view
+
+View the mute message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke mute dm
+
+Change mute message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke mute dm view
+
+View the mute message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke ban
+
+Change ban message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke ban dm
+
+Change ban message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke ban dm view
+
+View the ban message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke ban message
+
+Change ban message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke ban message view
+
+View the ban message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke iunmute
+
+Change iunmute message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke iunmute message
+
+Change iunmute message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke iunmute message view
+
+View the iunmute message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke jail
+
+Change jail message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke jail message
+
+Change jail message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke jail message view
+
+View the jail message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke jail dm
+
+Change jail message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke jail dm view
+
+View the jail message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke unjail
+
+Change unjail message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke unjail dm
+
+Change unjail message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke unjail dm view
+
+View the unjail message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke unjail message
+
+Change unjail message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke unjail message view
+
+View the unjail message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+invoke warn
+
+Change warn message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke warn dm
+
+Change warn message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke warn dm view
+
+View the warn message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke warn message
+
+Change warn message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke warn message view
+
+View the warn message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke rmute
+
+Change rmute message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke rmute message
+
+Change rmute message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke rmute message view
+
+View the rmute message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke imute
+
+Change imute message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke imute message
+
+Change imute message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke imute message view
+
+View the imute message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke untimeout
+
+Change untimeout message for DM or command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke untimeout message
+
+Change untimeout message for command response
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke untimeout message view
+
+View the untimeout message for command response
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+invoke untimeout dm
+
+Change untimeout message for Direct Messages
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+invoke untimeout dm view
+
+View the untimeout message for Direct Messages
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+filter
+
+View a variety of options to help clean chat
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+filter massmention
+
+Delete any message exceeding the threshold for user mentions
+
+arguments
+
+channel
+
+setting
+
+parameters
+
+permissions
+
+Manage Channels
+
+filter massmention exempt
+
+Exempt roles from the mass mention filter
+
+arguments
+
+role
+
+permissions
+
+Manage Channels
+
+filter massmention exempt list
+
+View list of roles exempted from massmention filter
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+filter add
+
+Add a filtered word
+
+arguments
+
+word
+
+permissions
+
+Manage Guild
+
+Manage Channels
+
+filter reset
+
+Reset all filtered words
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+filter spoilers
+
+Delete any message exceeding the threshold for spoilers
+
+arguments
+
+channel
+
+setting
+
+parameters
+
+permissions
+
+Manage Channels
+
+filter spoilers exempt
+
+Exempt roles from the spoilers filter
+
+arguments
+
+role
+
+permissions
+
+Manage Channels
+
+filter spoilers exempt list
+
+View list of roles exempted from spoilers filter
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+filter remove
+
+Remove a filtered word
+
+arguments
+
+word
+
+permissions
+
+Manage Guild
+
+Manage Channels
+
+filter wordmigrate
+
+Migrate your filtered words to Discords Automod
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Manage Channels
+
+filter musicfiles
+
+Delete any message that contains a music file
+
+arguments
+
+channel
+
+setting
+
+parameters
+
+permissions
+
+Manage Channels
+
+filter musicfiles exempt
+
+Exempt roles from the music files filter
+
+arguments
+
+role
+
+permissions
+
+Manage Channels
+
+filter musicfiles exempt list
+
+View list of roles exempted from musicfiles filter
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+filter spam
+
+Delete messages from users that send messages too fast
+
+arguments
+
+channel
+
+setting
+
+parameters
+
+permissions
+
+Manage Channels
+
+filter spam exempt
+
+Exempt roles from the antispam filter
+
+arguments
+
+role
+
+permissions
+
+Manage Channels
+
+filter spam exempt list
+
+View list of roles exempted from spam filter
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+filter exempt
+
+Exempt roles from the word filter
+
+arguments
+
+role
+
+permissions
+
+Manage Channels
+
+filter exempt list
+
+View list of roles exempted from nicknames filter
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+filter snipe
+
+Filter snipe command from allowing certain content
+
+arguments
+
+type
+
+permissions
+
+Manage Channels
+
+filter caps
+
+Delete messages that contain too many uppercase characters
+
+arguments
+
+channel
+
+setting
+
+parameters
+
+permissions
+
+Manage Channels
+
+filter caps exempt
+
+Exempt roles from the caps filter
+
+arguments
+
+role
+
+permissions
+
+Manage Channels
+
+filter caps exempt list
+
+View list of roles exempted from caps filter
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+filter links
+
+Delete any message that contains a link
+
+arguments
+
+channel
+
+setting
+
+parameters
+
+permissions
+
+Manage Channels
+
+filter links exempt
+
+Exempt roles from the links filter
+
+arguments
+
+role
+
+permissions
+
+Manage Channels
+
+filter links exempt list
+
+View list of roles exempted from links filter
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+filter links whitelist
+
+Whitelist links from the links filter
+
+arguments
+
+channel
+
+url
+
+permissions
+
+Manage Channels
+
+filter invites
+
+Delete any message that contains a server link
+
+arguments
+
+channel
+
+setting
+
+parameters
+
+permissions
+
+Manage Channels
+
+filter invites exempt
+
+Exempt roles from the invite filter
+
+arguments
+
+role
+
+permissions
+
+Manage Channels
+
+filter invites exempt list
+
+View list of roles exempted from invites filter
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+filter list
+
+View a list of filtered words in guild
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+filter regex
+
+Add or remove a regex pattern
+
+arguments
+
+pattern
+
+permissions
+
+Manage Guild
+
+Manage Channels
+
+filter emoji
+
+Delete any message exceeding the threshold for emojis
+
+arguments
+
+channel
+
+setting
+
+parameters
+
+permissions
+
+Manage Channels
+
+filter emoji exempt
+
+Exempt roles from the emoji filter
+
+arguments
+
+role
+
+permissions
+
+Manage Channels
+
+filter emoji exempt list
+
+View list of roles exempted from emoji filter
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+filter whitelist
+
+Add or remove a whitelisted word
+
+arguments
+
+word
+
+permissions
+
+Manage Guild
+
+Manage Channels
+autoresponder
+
+Set up automatic replies to messages matching a trigger
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+autoresponder role
+
+Assign or remove roles on messages matching a trigger
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+autoresponder role add
+
+Add a role to be given when an autoresponder is triggered
+
+arguments
+
+role
+
+trigger
+
+permissions
+
+Manage Channels
+
+autoresponder role add list
+
+View roles assigned upon messages matching a trigger
+
+arguments
+
+trigger
+
+permissions
+
+Manage Channels
+
+autoresponder role remove
+
+Add a role to be removed when an autoresponder is triggered
+
+arguments
+
+role
+
+trigger
+
+permissions
+
+Manage Channels
+
+autoresponder role remove list
+
+View roles removed upon messages matching a trigger
+
+arguments
+
+trigger
+
+permissions
+
+Manage Channels
+
+autoresponder variables
+
+View a list of available variables
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+autoresponder update
+
+Update a reply for a trigger word
+
+arguments
+
+args
+
+permissions
+
+Manage Channels
+
+autoresponder reset
+
+Remove every auto response
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+autoresponder exclusive
+
+Toggle exclusive access for an autoresponder to a role or channel
+
+arguments
+
+role or channel
+
+trigger
+
+permissions
+
+Manage Channels
+
+autoresponder exclusive list
+
+View a list of roles and channels that have exclusive access to an autoresponder
+
+arguments
+
+trigger
+
+permissions
+
+Manage Channels
+
+autoresponder add
+
+Create a reply for a trigger word
+
+arguments
+
+args
+
+permissions
+
+Manage Channels
+
+autoresponder list
+
+View a list of auto-reply triggers in guild
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+autoresponder remove
+
+Remove a reply for a trigger word
+
+arguments
+
+trigger
+
+permissions
+
+Manage Channels
+
+pagination
+
+Set up multiple embeds on one message
+
+arguments
+
+none
+
+permissions
+
+Manage Messages
+
+pagination reset
+
+Remove every existing pagination in guild
+
+arguments
+
+none
+
+permissions
+
+Administrator
+
+pagination add
+
+Add a page to a pagination embed
+
+arguments
+
+messagelink
+
+embed code
+
+permissions
+
+Manage Messages
+
+pagination delete
+
+Delete a pagination embed entirely
+
+arguments
+
+messagelink
+
+permissions
+
+Manage Messages
+
+pagination list
+
+View all existing pagination embeds
+
+arguments
+
+none
+
+permissions
+
+Manage Messages
+
+pagination remove
+
+Remove a page from a pagination embed
+
+arguments
+
+messagelink
+
+id
+
+permissions
+
+Manage Messages
+
+pagination set
+
+Set up an existing embed to be paginated
+
+arguments
+
+messagelink
+
+permissions
+
+Manage Messages
+
+pagination restorereactions
+
+Restore reactions to an existing pagination
+
+arguments
+
+messagelink
+
+permissions
+
+Manage Messages
+
+pagination update
+
+Update an existing page on pagination embed
+
+arguments
+
+messagelink
+
+id
+
+embed code
+
+permissions
+
+Manage Messages
+
+enablecommand
+
+Enable a previously disabled command in a channel
+
+arguments
+
+channel or member
+
+command
+
+permissions
+
+Manage Channels
+
+enablecommand all
+
+Enable a command in every channel
+
+arguments
+
+command
+
+permissions
+
+Manage Channels
+
+copydisabled
+
+Copy disabled modules, events, filters and commands to another channel
+
+arguments
+
+old channel
+
+new channel
+
+permissions
+
+Manage Channels
+
+disablecommand
+
+Disable a command in a channel
+
+arguments
+
+channel or member
+
+command
+
+permissions
+
+Manage Channels
+
+disablecommand all
+
+Disable a command in every channel
+
+arguments
+
+command
+
+permissions
+
+Manage Channels
+
+disablecommand list
+
+View a list of disabled commands in guild
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+enableevent
+
+Enable a bot event in a channel
+
+arguments
+
+channel
+
+event
+
+permissions
+
+Manage Channels
+
+enableevent all
+
+Enables a bot event in every channel
+
+arguments
+
+event
+
+permissions
+
+Manage Channels
+
+disableevent
+
+Disable a bot event in a channel
+
+arguments
+
+channel
+
+event
+
+permissions
+
+Manage Channels
+
+disableevent all
+
+Disable a bot event in every channel
+
+arguments
+
+event
+
+permissions
+
+Manage Channels
+
+disableevent list
+
+View a list of disabled bot events in guild
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+enablemodule
+
+Enable a module in a channel
+
+arguments
+
+channel
+
+module
+
+permissions
+
+none
+
+enablemodule all
+
+Enables a module in every channel
+
+arguments
+
+module
+
+permissions
+
+Manage Channels
+
+disablemodule
+
+Disable a module in a channel
+
+arguments
+
+channel
+
+module
+
+permissions
+
+Manage Channels
+
+disablemodule list
+
+View a list of disabled modules in guild
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+disablemodule all
+
+Disable a module in every channel
+
+arguments
+
+module
+
+permissions
+
+Manage Channels
+
+ignore
+
+No description given
+
+arguments
+
+member or channel
+
+permissions
+
+Administrator
+
+ignore list
+
+View a list of ignored members or channels
+
+arguments
+
+none
+
+permissions
+
+Administrator
+
+ignore add
+
+Ignore a member or channel
+
+arguments
+
+member or channel
+
+permissions
+
+Administrator
+
+ignore remove
+
+Remove ignoring for a member or channel
+
+arguments
+
+member or channel
+
+permissions
+
+Administrator
+
+seticon
+
+Set a new guild icon
+
+arguments
+
+url
+
+permissions
+
+Manage Guild
+
+setsplashbackground
+
+Set a new guild splash background
+
+arguments
+
+url
+
+permissions
+
+Manage Guild
+
+setbanner
+
+Set a new guild banner
+
+arguments
+
+url
+
+permissions
+
+Manage Guild
+
+unpin
+
+Unpin a message
+
+arguments
+
+message
+
+permissions
+
+Manage Messages
+
+pin
+
+Pin the most recent message or by URL
+
+arguments
+
+message
+
+permissions
+
+Manage Messages
+
+firstmessage
+
+Get a link for the first message in a channel
+
+arguments
+
+channel
+
+permissions
+
+none
+
+pins
+
+Pin archival system commands
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+pins config
+
+View the pin archival config
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+pins channel
+
+Set the pin archival channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+pins archive
+
+Archive the pins in the current channel
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+pins unpin
+
+Enable or disable the unpinning of messages during archival
+
+arguments
+
+option
+
+permissions
+
+Manage Guild
+
+pins reset
+
+Reset the pin archival config
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+pins set
+
+Enable or disable the pin archival system
+
+arguments
+
+option
+
+permissions
+
+Manage Guild
+webhook
+
+Set up webhooks in your server
+
+arguments
+
+none
+
+permissions
+
+Manage Webhooks
+
+webhook delete
+
+Delete webhook for a channel
+
+arguments
+
+identifier
+
+permissions
+
+Manage Webhooks
+
+webhook send
+
+Send message to existing channel webhook
+
+arguments
+
+identifier
+
+message or embed code
+
+permissions
+
+Manage Webhooks
+
+webhook list
+
+List all available webhooks in the server
+
+arguments
+
+none
+
+permissions
+
+none
+
+webhook edit
+
+Send message to existing channel webhook
+
+arguments
+
+messagelink
+
+message or embed code
+
+permissions
+
+Manage Webhooks
+
+webhook create
+
+Create webhook to forward messages to
+
+arguments
+
+name
+
+permissions
+
+Manage Webhooks
+
+webhook unlock
+
+Unlock your webhook from being accessed by others
+
+arguments
+
+identifier
+
+permissions
+
+Manage Webhooks
+
+webhook lock
+
+Lock your webhook from being accessed by others
+
+arguments
+
+identifier
+
+permissions
+
+Manage Webhooks
+
+fakepermissions
+
+Set up fake permissions for role through the bot!
+
+arguments
+
+none
+
+permissions
+
+Server Owner
+
+fakepermissions reset
+
+Resets all fake permissions
+
+arguments
+
+none
+
+permissions
+
+Server Owner
+
+fakepermissions remove
+
+Remove a fake permission from a role
+
+arguments
+
+role
+
+permission
+
+permissions
+
+Server Owner
+
+fakepermissions add
+
+Grant a fake permission to a role
+
+arguments
+
+role
+
+permission
+
+permissions
+
+none
+
+fakepermissions list
+
+List all fake permissions
+
+arguments
+
+role
+
+permissions
+
+Server Owner
+
+extractstickers
+
+Sends all of your servers stickers in a zip file
+
+arguments
+
+none
+
+permissions
+
+Administrator
+
+extractemotes
+
+Sends all of your servers emojis in a zip file
+
+arguments
+
+none
+
+permissions
+
+Administrator
+
+reposter
+
+Manage, enable or disable social media reposting
+
+arguments
+
+option
+
+permissions
+
+Manage Guild
+
+reposter prefix
+
+Enable or disable bleed prefix for reposting
+
+arguments
+
+option
+
+permissions
+
+Manage Guild
+
+reposter embed
+
+Enable or disable embed attached to media
+
+arguments
+
+option
+
+permissions
+
+Manage Guild
+
+reposter suppress
+
+Enable or disable suppression of context links
+
+arguments
+
+option
+
+permissions
+
+Manage Guild
+
+reposter strict
+
+Enable or disable matching links throughout messages
+
+arguments
+
+option
+
+permissions
+
+Manage Guild
+
+reposter delete
+
+Enable or disable deletion of social media links
+
+arguments
+
+option
+
+permissions
+
+Manage Guild
+
+suggest
+
+Suggest a new idea or feature to server staff
+
+arguments
+
+suggestion
+
+permissions
+
+none
+
+suggest unlock
+
+Enable suggestions system
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+suggest review
+
+Enable or disable review of suggestions before displayed publicly
+
+arguments
+
+setting
+
+permissions
+
+Manage Channels
+
+suggest review channel
+
+Set the review channel for suggestions that require approval
+
+arguments
+
+channel
+
+permissions
+
+Manage Channels
+
+suggest reactions
+
+Set custom reactions for new suggestions
+
+arguments
+
+upvote
+
+downvote
+
+permissions
+
+Manage Channels
+
+suggest progress
+
+Change a suggestion status to In Progress
+
+arguments
+
+id
+
+permissions
+
+Staff Only
+
+suggest config
+
+View suggestion system configuration
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+suggest reply
+
+Reply to a suggestion
+
+arguments
+
+id
+
+comment
+
+permissions
+
+Staff Only
+
+suggest ignore
+
+Prevent members or roles from creating suggestions
+
+arguments
+
+member or role
+
+permissions
+
+Manage Channels
+
+suggest ignore list
+
+List all ignored members or roles
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+suggest deny
+
+Change a suggestion status to Denied
+
+arguments
+
+id
+
+permissions
+
+Staff Only
+
+suggest set
+
+Set the channel for new suggestions
+
+arguments
+
+channel
+
+permissions
+
+Manage Channels
+
+suggest threads
+
+Create a thread along with the suggestion message
+
+arguments
+
+setting
+
+permissions
+
+Manage Channels
+
+suggest lock
+
+Disable suggestions system
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+suggest consider
+
+Change a suggestion status to In Consideration
+
+arguments
+
+id
+
+permissions
+
+Staff Only
+
+suggest approve
+
+Change a suggestion status to Approved
+
+arguments
+
+id
+
+permissions
+
+Staff Only
+
+suggest reset
+
+Change a suggestion status to Pending
+
+arguments
+
+id
+
+permissions
+
+Staff Only
+
+customize
+
+Customize the bot's server appearance
+
+arguments
+
+none
+
+permissions
+
+Server Owner
+
+customize bio
+
+Customize the bot's server bio
+
+arguments
+
+text
+
+permissions
+
+Server Owner
+
+customize banner
+
+Customize the bot's server banner
+
+arguments
+
+url
+
+permissions
+
+Server Owner
+
+customize avatar
+
+Customize the bot's server avatar
+
+arguments
+
+url
+
+permissions
+
+Server Owner
+
+badge
+
+Reward members for setting the guild tag
+
+arguments
+
+setting
+
+permissions
+
+Manage Guild
+
+badge role
+
+Award members for applying the guild tag
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+badge role add
+
+Add a role to the list of roles that can be awarded for applying the guild tag
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+badge role list
+
+List all roles that can be awarded for applying the guild tag
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+badge role remove
+
+Remove a role from the list of roles that can be awarded for applying the guild tag
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+badge sync
+
+Sync guild tag member roles
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+badge channel
+
+Set an award channel for new guild tag members
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+badge message
+
+Set an award message with embed code or regular text
+
+arguments
+
+message
+
+permissions
+
+Manage Guild
+
+badge message view
+
+View current award message
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+tempban
+
+Temporarily ban a member
+
+arguments
+
+member
+
+duration
+
+reason
+
+permissions
+
+Ban Members
+
+remind
+
+Get reminders for a duration set about whatever you choose
+
+arguments
+
+reminder
+
+permissions
+
+none
+
+remind remove
+
+Remove a reminder
+
+arguments
+
+id
+
+permissions
+
+none
+
+remind list
+
+View a list of your reminders
+
+arguments
+
+none
+
+permissions
+
+none
+
+reminders
+
+View a list of your reminders
+
+arguments
+
+none
+
+permissions
+
+none
+
+warn
+
+Warns the mentioned user and private messages them the warning
+
+arguments
+
+member
+
+reason
+
+permissions
+
+Manage Messages
+
+thread
+
+Commands to manage threads and forum posts
+
+arguments
+
+none
+
+permissions
+
+none
+
+thread unlock
+
+Unlock a thread or forum post
+
+arguments
+
+thread
+
+reason
+
+permissions
+
+Manage Threads
+
+thread add
+
+Add a member to the thread
+
+arguments
+
+thread
+
+member
+
+permissions
+
+Manage Threads
+
+thread lock
+
+Lock a thread or forum post
+
+arguments
+
+thread
+
+reason
+
+permissions
+
+Manage Threads
+
+thread remove
+
+Remove a member from the thread
+
+arguments
+
+thread
+
+member
+
+permissions
+
+Manage Threads
+
+thread watch
+
+Toggle a thread being watched for archival
+
+arguments
+
+thread
+
+permissions
+
+Manage Channels
+
+thread watch list
+
+View all threads in the server being watched
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+thread rename
+
+Rename a thread
+
+arguments
+
+thread
+
+new name
+
+permissions
+
+Manage Threads
+
+lockdown
+
+Lockdown a channel
+
+arguments
+
+channel
+
+reason
+
+permissions
+
+Manage Channels
+
+lockdown ignore
+
+Blocks a channel from being altered when using the "unlock all" command
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+lockdown ignore remove
+
+Remove an ignored lockdown channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+lockdown ignore list
+
+View all ignored lockdown channels
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+lockdown ignore add
+
+Set an ignored lockdown channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Guild
+
+lockdown all
+
+Locks all channels
+
+arguments
+
+reason
+
+permissions
+
+Manage Channels
+
+lockdown role
+
+Set the default lock role
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+moveall
+
+Move all members in current channel to another channel
+
+arguments
+
+channel
+
+permissions
+
+Administrator
+
+unlock
+
+Unlock a channel
+
+arguments
+
+channel
+
+reason
+
+permissions
+
+Manage Channels
+
+unlock all
+
+Unlocks every channel
+
+arguments
+
+reason
+
+permissions
+
+Ban Members
+
+stripstaff
+
+Strip staff roles from a member
+
+arguments
+
+member
+
+permissions
+
+Administrator
+
+jail
+
+Jails the mentioned user
+
+arguments
+
+member
+
+duration
+
+reason
+
+permissions
+
+Manage Messages
+
+modstats
+
+View punishment statistics for a moderator
+
+arguments
+
+member
+
+permissions
+
+Manage Messages
+
+warnings
+
+View warnings for a member
+
+arguments
+
+member
+
+permissions
+
+Manage Messages
+
+moderationhistory
+
+View moderation actions from a staff member
+
+arguments
+
+member
+
+command
+
+permissions
+
+Manage Messages
+
+history
+
+View a list of every punishment recorded
+
+arguments
+
+member
+
+command
+
+permissions
+
+Manage Messages
+
+history view
+
+View an ID's case log
+
+arguments
+
+case id
+
+permissions
+
+Manage Messages
+
+history remove
+
+Remove a punishment from a member
+
+arguments
+
+member
+
+case id
+
+permissions
+
+Manage Messages
+
+history removeall
+
+Remove all punishments from a member
+
+arguments
+
+member
+
+permissions
+
+Administrator
+
+jaillist
+
+View a list of every current jailed member
+
+arguments
+
+none
+
+permissions
+
+Manage Messages
+
+reason
+
+Updates the reason on a case log
+
+arguments
+
+case id
+
+reason
+
+permissions
+
+Manage Messages
+
+timeout
+
+Mutes the provided member using Discords timeout feature
+
+arguments
+
+member
+
+duration
+
+reason
+
+permissions
+
+Moderate Members
+
+timeout list
+
+View list of timed out members
+
+arguments
+
+none
+
+permissions
+
+Moderate Members
+
+untimeout
+
+Removes a timeout for a member
+
+arguments
+
+member
+
+reason
+
+permissions
+
+Moderate Members
+
+mute
+
+Mute a member
+
+arguments
+
+member
+
+duration
+
+reason
+
+permissions
+
+Moderate Members
+
+unmute
+
+Unmutes a member
+
+arguments
+
+member
+
+reason
+
+permissions
+
+Moderate Members
+
+imute
+
+Remove a member's attach files & embed links permission
+
+arguments
+
+member
+
+reason
+
+permissions
+
+Moderate Members
+
+iunmute
+
+Restores a member's attach files & embed links permission
+
+arguments
+
+member
+
+reason
+
+permissions
+
+Moderate Members
+
+rmute
+
+Remove a member's add reactions & use external emotes permission
+
+arguments
+
+member
+
+reason
+
+permissions
+
+Moderate Members
+
+runmute
+
+Restores a member's add reactions & use external emotes permission
+
+arguments
+
+member
+
+reason
+
+permissions
+
+Moderate Members
+
+notes
+
+View notes on a member
+
+arguments
+
+member
+
+permissions
+
+Manage Messages
+
+notes clear
+
+Clears all notes for a member
+
+arguments
+
+member
+
+permissions
+
+Manage Messagtes
+
+notes remove
+
+Removes a note for a member
+
+arguments
+
+member
+
+id
+
+permissions
+
+Manage Messages
+
+notes add
+
+Add a note for a member
+
+arguments
+
+member
+
+note
+
+permissions
+
+Manage Messages
+
+hardban
+
+Keep a member banned
+
+arguments
+
+member
+
+reason
+
+permissions
+
+Administrator
+
+Antinuke Admin
+
+hardban list
+
+View list of hardbanned members
+
+arguments
+
+none
+
+permissions
+
+Administrator
+
+Antinuke Admin
+
+clearinvites
+
+Remove all existing invites in guild
+
+arguments
+
+params
+
+permissions
+
+Manage Guild
+
+drag
+
+Drag member(s) to the specified Voice Channel
+
+arguments
+
+members
+
+channel
+
+permissions
+
+Move Members
+
+unbanall
+
+Unbans every member in a guild
+
+arguments
+
+none
+
+permissions
+
+Server Owner
+
+unbanall cancel
+
+Cancels a unban all task running
+
+arguments
+
+none
+
+permissions
+
+Server Owner
+
+unban
+
+Unbans the mentioned user
+
+arguments
+
+user
+
+reason
+
+permissions
+
+Ban Members
+
+softban
+
+Softbans the mentioned user and deleting 1 day of messages
+
+arguments
+
+member
+
+delete history
+
+reason
+
+permissions
+
+Ban Members
+
+ban
+
+Bans the mentioned user
+
+arguments
+
+member
+
+delete history
+
+reason
+
+permissions
+
+Ban Members
+
+ban purge
+
+Set default message history purge upon ban
+
+arguments
+
+delete history
+
+permissions
+
+Manage Guild
+
+Ban Members
+
+ban recent
+
+No description given
+
+arguments
+
+none
+
+permissions
+
+Ban Members
+
+unjail
+
+Unjails the mentioned user
+
+arguments
+
+member
+
+reason
+
+permissions
+
+Manage Messages
+
+temprole
+
+Temporarily give a role to a member
+
+arguments
+
+member
+
+duration
+
+role
+
+permissions
+
+Manage Roles
+
+temprole list
+
+List all active temporary roles
+
+arguments
+
+none
+
+permissions
+
+Manage Roles
+
+role
+
+Modify a member's roles
+
+arguments
+
+member
+
+role
+
+permissions
+
+Manage Roles
+
+role has
+
+Add a role to members with a specific role
+
+arguments
+
+role
+
+assign role
+
+permissions
+
+Manage Roles
+
+Manage Guild
+
+role has remove
+
+Remove a role from members with a specific role
+
+arguments
+
+role
+
+remove role
+
+permissions
+
+Manage Roles
+
+Manage Guild
+
+role add
+
+Adds role to a member
+
+arguments
+
+member
+
+role
+
+permissions
+
+Manage Roles
+
+role humans
+
+Add a role to all humans
+
+arguments
+
+role
+
+flags
+
+permissions
+
+Manage Roles
+
+Manage Guild
+
+role humans remove
+
+Remove a role from all humans
+
+arguments
+
+role
+
+permissions
+
+Manage Roles
+
+Manage Guild
+
+role delete
+
+Deletes a role
+
+arguments
+
+role
+
+permissions
+
+Manage Roles
+
+role mentionable
+
+Toggle mentioning a role
+
+arguments
+
+role
+
+permissions
+
+Manage Roles
+
+role color
+
+Set a color for a role
+
+arguments
+
+colour
+
+role
+
+permissions
+
+Manage Roles
+
+role color gradient
+
+Set a gradient color for a role
+
+arguments
+
+colour
+
+second colour
+
+role
+
+permissions
+
+Manage Roles
+
+role cancel
+
+Cancels a mass role task running
+
+arguments
+
+none
+
+permissions
+
+Manage Roles
+
+Manage Guild
+
+role restore
+
+Restore roles to a member
+
+arguments
+
+member
+
+permissions
+
+Manage Roles
+
+role icon
+
+Set an icon for a role
+
+arguments
+
+url
+
+role
+
+permissions
+
+Manage Roles
+
+role edit
+
+Change a role name
+
+arguments
+
+role
+
+name
+
+permissions
+
+Manage Roles
+
+role bots
+
+Add a role to all bots
+
+arguments
+
+role
+
+permissions
+
+Manage Roles
+
+Manage Guild
+
+role bots remove
+
+Remove a role from all bots
+
+arguments
+
+role
+
+permissions
+
+Manage Roles
+
+Manage Guild
+
+role create
+
+Creates a role with optional color
+
+arguments
+
+color
+
+role
+
+permissions
+
+Manage Roles
+
+role hoist
+
+Toggle hoisting a role
+
+arguments
+
+role
+
+permissions
+
+Manage Roles
+
+role remove
+
+Removes role from a member
+
+arguments
+
+member
+
+role
+
+permissions
+
+Manage Roles
+
+role topcolor
+
+Changes your highest roles color
+
+arguments
+
+colour
+
+member
+
+permissions
+
+Manage Roles
+
+purge
+
+Deletes the specified amount of messages from the current channel
+
+arguments
+
+member
+
+search
+
+permissions
+
+Manage Messages
+
+purge bots
+
+Purge messages from bots in chat
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge startswith
+
+Purge messages that start with a given substring
+
+arguments
+
+substring
+
+permissions
+
+Manage Messages
+
+purge after
+
+Purge messages after a given message ID
+
+arguments
+
+messagelink
+
+permissions
+
+Manage Messages
+
+purge webhooks
+
+Purge messages from webhooks in chat
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge between
+
+Purge between two messages
+
+arguments
+
+start id
+
+finish id
+
+permissions
+
+Manage Messages
+
+purge links
+
+Purge messages containing links
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge activity
+
+Purge activity messages from chat
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge humans
+
+Purge messages from humans in chat
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge endswith
+
+Purge messages that ends with a given substring
+
+arguments
+
+substring
+
+permissions
+
+Manage Messages
+
+purge reactions
+
+Purge reactions from messages in chat
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge stickers
+
+Purge stickers from chat
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge mentions
+
+Purge mentions for a member from chat
+
+arguments
+
+member
+
+search
+
+permissions
+
+Manage Messages
+
+purge emoji
+
+Purge emojis from chat
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge emotes
+
+Purge emotes from chat
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge upto
+
+Purge messages up to a message link
+
+arguments
+
+messagelink
+
+permissions
+
+Manage Messages
+
+purge embeds
+
+Purge embeds from chat
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge files
+
+Purge files/attachments from chat
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge images
+
+Purge images (including links) from chat
+
+arguments
+
+search
+
+permissions
+
+Manage Messages
+
+purge contains
+
+Purges messages containing given substring
+
+arguments
+
+substring
+
+permissions
+
+Manage Messages
+
+purge before
+
+Purge messages before a given message ID
+
+arguments
+
+messagelink
+
+permissions
+
+Manage Messages
+
+dump
+
+Dumps all members of a role
+
+arguments
+
+role
+
+flags
+
+permissions
+
+Manage Roles
+
+nuke
+
+Clone the current channel
+
+arguments
+
+none
+
+permissions
+
+Administrator
+
+Antinuke Admin
+
+nuke view
+
+View message after scheduled nuke for channel
+
+arguments
+
+channel
+
+permissions
+
+Administrator
+
+nuke add
+
+Schedule nuke for a channel (yes. this will reclone the channel)
+
+arguments
+
+channel
+
+interval
+
+message
+
+permissions
+
+Administrator
+
+nuke remove
+
+Remove scheduled nuke for a channel
+
+arguments
+
+channel
+
+permissions
+
+Administrator
+
+nuke list
+
+View all scheduled nukes
+
+arguments
+
+none
+
+permissions
+
+Administrator
+
+nuke archive
+
+Automatically archive pins upon scheduled nuke
+
+arguments
+
+channel
+
+setting
+
+permissions
+
+Administrator
+
+newmembers
+
+View list of recently joined members
+
+arguments
+
+count
+
+permissions
+
+none
+
+recentban
+
+Chunk ban recently joined members
+
+arguments
+
+count
+
+reason
+
+permissions
+
+Ban Members
+
+talk
+
+Toggle a channel to text for a role
+
+arguments
+
+channel
+
+role
+
+permissions
+
+Manage Channels
+
+unhide
+
+Unhide a channel from a role or member
+
+arguments
+
+channel
+
+role or member
+
+permissions
+
+none
+
+hide
+
+Hide a channel from a role or member
+
+arguments
+
+channel
+
+role or member
+
+permissions
+
+Manage Channels
+
+slowmode
+
+Restricts members to sending one message per interval
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+slowmode off
+
+Disables slowmode in a channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Channels
+
+slowmode on
+
+Enable slowmode in a channel
+
+arguments
+
+channel
+
+delay time
+
+permissions
+
+Manage Channels
+
+revokefiles
+
+Removes/assigns the permission to attach files & embed links in the current channel
+
+arguments
+
+none
+
+permissions
+
+Manage Channels
+
+revokefiles on
+
+Enable permissions to attach files & embed links in a channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Channels
+
+revokefiles off
+
+Disables permissions to attach files & embed links in a channel
+
+arguments
+
+channel
+
+permissions
+
+Manage Channels
+
+setup
+
+Start process for setting up the moderation system
+
+arguments
+
+none
+
+permissions
+
+Administrator
+
+rename
+
+Assigns the mentioned user a new nickname in the guild
+
+arguments
+
+member
+
+newnick
+
+permissions
+
+Manage Nicknames
+
+restrictcommand
+
+Only allows people with a certain role to use command
+
+arguments
+
+cmd
+
+role
+
+permissions
+
+Manage Guild
+
+restrictcommand add
+
+Allows the specified role exclusive permission to use a command
+
+arguments
+
+cmd
+
+role
+
+permissions
+
+Manage Guild
+
+restrictcommand remove
+
+Removes the specified roles exclusive permission to use a command
+
+arguments
+
+cmd
+
+role
+
+permissions
+
+Manage Guild
+
+restrictcommand reset
+
+Removes every restricted command
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+restrictcommand list
+
+View a list of every restricted command
+
+arguments
+
+role or command
+
+permissions
+
+Manage Guild
+
+stickyrole
+
+Reapplies a role on join
+
+arguments
+
+member
+
+role
+
+permissions
+
+Server Owner
+
+stickyrole add
+
+Reapplies a role on join
+
+arguments
+
+member
+
+role
+
+permissions
+
+Server Owner
+
+stickyrole list
+
+View a list of every sticky role
+
+arguments
+
+none
+
+permissions
+
+Server Owner
+
+stickyrole remove
+
+Removes sticky role on join
+
+arguments
+
+member
+
+role
+
+permissions
+
+Server Owner
+
+raid
+
+Remove all members that joined in the time provided in the event of a raid
+
+arguments
+
+time
+
+action
+
+reason
+
+permissions
+
+Ban Member
+
+forcenickname
+
+Force a members current nickname
+
+arguments
+
+member
+
+name to set
+
+permissions
+
+Manage Guild
+
+Nicknames
+
+forcenickname list
+
+View a list of all forced nicknames
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Nicknames
+
+topic
+
+Change the current channel topic
+
+arguments
+
+text
+
+permissions
+
+Manage Channels
+
+naughty
+
+Temporarily make a channel NSFW for 30 seconds
+
+arguments
+
+channel
+
+permissions
+
+Manage Channels
+
+setupmute
+
+Sets up muted roles and channel permissions
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Manage Channels
+
+permissions
+
+Check permissions for member or myself
+
+arguments
+
+member
+
+channel
+
+permissions
+
+Manage Roles
+
+Manage Channels
